@@ -1,0 +1,19 @@
+{
+  "name": "cronometer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ts-loader": "^2.3.7",
+    "tslint": "^5.7.0",
+    "tslint-config-prettier": "^1.10.0"
+  },
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc",
+    "slimerjs": "slimerjs ./build/js/index.js"
+  },
+  "devDependencies": {
+    "@types/slimerjs": "^0.10.2",
+    "typescript": "^3.0.3"
+  }
+}
